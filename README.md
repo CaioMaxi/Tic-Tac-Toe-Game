@@ -1,16 +1,18 @@
-# React + Vite
+Tic-Tac-Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, interactive, and lightweight implementation of the classic Tic-Tac-Toe (Noughts and Crosses) game. Whether you want to challenge a friend locally or test your logic, this project provides a seamless gaming experience.
 
-Currently, two official plugins are available:
+Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Two-Player Mode: Play against a friend on the same device.
 
-## React Compiler
+Win Detection: Automatically detects and highlights winning combinations (horizontal, vertical, and diagonal).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Draw Logic: Recognizes when the board is full and the game ends in a tie.
 
-## Expanding the ESLint configuration
+Reset Functionality: Quickly clear the board to start a new round.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Time Walk Functionality: Go back to a previously state of the game and restart from there.
+
+
+Coded with Javascript React
